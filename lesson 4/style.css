@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    /* обнуление всех отступов */
+    padding: 0;
+}
+
+.header {
+    background-color: grey;
+}
+
+.footer {
+    background-color: grey;
+}
+
+.text-red {
+    color: red;
+}
+
+.block {
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 48px;
+    /*фиксация внешний границы*/
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.block-float {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+}
+
+.heading-ant {
+    border: 1px solid red;
+    overflow: hidden;
+    /*clear: both;*/
+
+}
+
+.menu {
+    clear: both;
+}
+
+.menu_link:hover {
+    color: red;
+}
+
+.menu_list {
+    border: 1px solid black;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menu_list:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu1 {
+    color: blueviolet;
+    list-style-type: none;
+}
+
+.menu1:hover:after {
+    content: "<<<";
+}
+
+.menu1_new::after {
+    content: "   new";
+    color: red;
+}
+
+.menu1:nth-child(3)::after {
+    content: "   new3";
+    color: red;
+}
+
+.menu1:before {
+    content: "  *";
+}
+
+table.iksweb {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table.iksweb,
+table.iksweb td,
+table.iksweb th {
+    border: 1px solid #595959;
+}
+
+table.iksweb td,
+table.iksweb th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+
+table.iksweb th {
+    background: #347c99;
+    color: #fff;
+    font-weight: normal;
+}
