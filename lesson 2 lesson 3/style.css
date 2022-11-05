@@ -1,0 +1,49 @@
+p {
+    color: darkgoldenrod;
+}
+
+ol {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+.back_grey {
+    background-color: gray;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+.input {
+    color: green;
+}
+
+.block {
+    width: 90%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: gray;
+    background-image: url(123.JPG);
+    background-size: cover;
+}
+
+body {
+    font-style: sans-serif;
+    font-weight: 900;
+}
+
+ol {
+    text-align: center;
+}
+
+ul li a {
+    color: green;
+}
+
+ul>li {
+    border: 1px solid#000;
+}
