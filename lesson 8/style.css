@@ -1,0 +1,51 @@
+.blockQ {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  /*display: inline-block;*/
+  display: inline;
+}
+
+.blockQ1 {
+  /*display: none;*/
+  /*visibility: hidden;*/
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*height: 200px;*/
+  /*background-color: grey;*/
+  /*align-items: center;*/
+}
+
+.block {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 25px;
+  height: 35px;
+  background-color: darkred;
+}
+
+.header {
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
